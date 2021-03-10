@@ -4,8 +4,8 @@ export interface Props {
     isActive?: boolean;
     theme: DefaultTheme;
 }
-declare const LinkLabel: import("styled-components").StyledComponent<"div", any, {
+declare const LinkLabel: import("styled-components").StyledComponent<"div", DefaultTheme, {
     isPushed: boolean;
 }, never>;
-declare const MenuEntry: import("styled-components").StyledComponent<"div", any, Props, never>;
+declare const MenuEntry: import("styled-components").StyledComponent<"div", DefaultTheme, Props, never>;
 export { MenuEntry, LinkLabel };

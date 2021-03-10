@@ -81,7 +81,9 @@ const PanelFooter: React.FC<Props> = ({
         {mangoPriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
             <MangoRoundIcon width="24px" mr="8px" />
-            <Text color="textSubtle" bold>{`$${mangoPriceUsd.toFixed(3)}`}</Text>
+            <Text color="textSubtle" bold>{`$${mangoPriceUsd.toFixed(
+              3
+            )}`}</Text>
           </PriceLink>
         ) : (
           <Skeleton width={80} height={24} />
@@ -89,13 +91,27 @@ const PanelFooter: React.FC<Props> = ({
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = {
+              width: "24px",
+              color: "textSubtle",
+              style: { cursor: "pointer" },
+            };
             const mr = index < socials.length - 1 ? "24px" : 0;
             if (social.items) {
               return (
-                <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
+                <Dropdown
+                  key={social.label}
+                  position="top"
+                  target={<Icon {...iconProps} mr={mr} />}
+                >
                   {social.items.map((item) => (
-                    <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
+                    <Link
+                      external
+                      key={item.label}
+                      href={item.href}
+                      aria-label={item.label}
+                      color="textSubtle"
+                    >
                       {item.label}
                     </Link>
                   ))}
@@ -103,7 +119,13 @@ const PanelFooter: React.FC<Props> = ({
               );
             }
             return (
-              <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
+              <Link
+                external
+                key={social.label}
+                href={social.href}
+                aria-label={social.label}
+                mr={mr}
+              >
                 <Icon {...iconProps} />
               </Link>
             );
@@ -124,7 +146,10 @@ const PanelFooter: React.FC<Props> = ({
         <Dropdown
           position="top-right"
           target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+            <Button
+              variant="text"
+              startIcon={<LanguageIcon color="textSubtle" width="24px" />}
+            >
               <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
             </Button>
           }
