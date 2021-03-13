@@ -24,7 +24,7 @@ export const Connected: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
         login={noop}
         logout={noop}
         isDark={false}
@@ -105,7 +105,7 @@ export const WithNoProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
         login={noop}
         logout={noop}
         isDark={false}
@@ -153,7 +153,7 @@ export const WithProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
         login={noop}
         logout={noop}
         isDark={false}
