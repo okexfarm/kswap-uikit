@@ -1,5 +1,5 @@
 {
-  "name": "@mangofarm/uikit",
+  "name": "@kswap/uikit",
   "version": "0.1.1",
   "description": "Set of UI components for mango projects",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/mangofinance/mango-uikit",
+  "repository": "https://github.com/okexfarm/kswap-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
