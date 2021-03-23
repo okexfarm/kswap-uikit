@@ -54,11 +54,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Mango home page">
+        <StyledLink as="a" href={href} aria-label="Kswap home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Mango home page">
+        <StyledLink to={href} aria-label="Kswap home page">
           {innerLogo}
         </StyledLink>
       )}
