@@ -72,7 +72,7 @@ const Menu: React.FC<NavProps> = ({
   langs,
   setLang,
   currentLang,
-  mangoPriceUsd,
+  kswapPriceUsd,
   links,
   priceLink,
   profile,
@@ -142,7 +142,7 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
-          mangoPriceUsd={mangoPriceUsd}
+          kswapPriceUsd={kswapPriceUsd}
           pushNav={setIsPushed}
           links={links}
           priceLink={priceLink}
