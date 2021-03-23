@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import MangoIcon from "./MangoIcon";
+import KswapIcon from "./KswapIcon";
 import { SpinnerProps } from "./types";
 
 const rotate = keyframes`
@@ -28,7 +28,7 @@ const Container = styled.div`
   position: relative;
 `;
 
-const FloatingMangoIcon = styled(MangoIcon)`
+const FloatingKswapIcon = styled(KswapIcon)`
   animation: ${float} 2s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;
@@ -36,7 +36,7 @@ const FloatingMangoIcon = styled(MangoIcon)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 72 }) => {
   return (
     <Container>
-      <FloatingMangoIcon width={`${size}px`} />
+      <FloatingKswapIcon width={`${size}px`} />
     </Container>
   );
 };
