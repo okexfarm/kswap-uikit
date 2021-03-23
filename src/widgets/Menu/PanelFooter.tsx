@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MangoRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
+import { KswapRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
 import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
@@ -59,7 +59,7 @@ const PanelFooter: React.FC<Props> = ({
   pushNav,
   toggleTheme,
   isDark,
-  mangoPriceUsd,
+  kswapPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -80,8 +80,8 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
         {mangoPriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
-            <MangoRoundIcon width="24px" mr="8px" />
-            <Text color="textSubtle" bold>{`$${mangoPriceUsd.toFixed(
+            <KswapRoundIcon width="24px" mr="8px" />
+            <Text color="textSubtle" bold>{`$${kswapPriceUsd.toFixed(
               3
             )}`}</Text>
           </PriceLink>
