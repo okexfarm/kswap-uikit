@@ -78,7 +78,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        {mangoPriceUsd ? (
+        {kswapPriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
             <KswapRoundIcon width="24px" mr="8px" />
             <Text color="textSubtle" bold>{`$${kswapPriceUsd.toFixed(
