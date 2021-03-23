@@ -1,7 +1,7 @@
 import "styled-components";
-import { MangoTheme } from "./theme";
+import { KswapTheme } from "./theme";
 
 declare module "styled-components" {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends MangoTheme {}
+  export interface DefaultTheme extends KswapTheme {}
 }
