@@ -2031,7 +2031,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TradeIcon: Icon$c,
     TwitterIcon: Icon$b,
     AuditIcon: Icon$a,
-    GooseIcon: Icon$9,
+    KswapIcon: Icon$9,
     LayerIcon: Icon$8,
     RoadmapIcon: Icon$7
 });
@@ -2126,19 +2126,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://info.mangofarm.finance",
+                href: "https://info.kswap.net",
             },
             {
                 label: "Tokens",
-                href: "https://info.mangofarm.finance/tokens",
+                href: "https://info.kswap.net/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://info.mangofarm.finance/pairs",
+                href: "https://info.kswap.net/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://info.mangofarm.finance/accounts",
+                href: "https://info.kswap.net/accounts",
             },
         ],
     },
@@ -2162,11 +2162,11 @@ var links = [
         items: [
             // {
             //   label: "Voting",
-            //   href: "https://voting.mangofarm.finance",
+            //   href: "https://voting.kswap.net",
             // },
             {
                 label: "Github",
-                href: "https://github.com/mangofinance/",
+                href: "https://github.com/okexfarm/kswap/",
             },
         ],
     },
@@ -2178,18 +2178,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/mangofinance",
+                href: "https://t.me/kswap_net",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/mangofinance",
+                href: "https://t.me/kswap_info",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/mangofinancebsc",
+        href: "https://twitter.com/kswap_net",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2306,7 +2306,7 @@ var PriceLink = styled__default['default'].a(templateObject_2$3 || (templateObje
 var SettingsEntry = styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, mangoPriceUsd = _a.mangoPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, kswapPriceUsd = _a.kswapPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
     if (!isPushed) {
         return (React__default['default'].createElement(Container, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2314,9 +2314,9 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container, null,
         React__default['default'].createElement(SocialEntry, null,
-            mangoPriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank" },
+            kswapPriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React__default['default'].createElement(Icon$E, { width: "24px", mr: "8px" }),
-                React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + mangoPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
+                React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + kswapPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
             React__default['default'].createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
@@ -2980,8 +2980,8 @@ exports.LinkExternal = LinkExternal;
 exports.ListViewIcon = Icon$K;
 exports.LogoIcon = Icon$J;
 exports.LogoRoundIcon = Icon$I;
-exports.MangoRoundIcon = Icon$E;
-exports.MangosIcon = Icon$F;
+exports.KswapRoundIcon = Icon$E;
+exports.KswapsIcon = Icon$F;
 exports.Menu = Menu;
 exports.MinusIcon = Icon$H;
 exports.Modal = Modal;
