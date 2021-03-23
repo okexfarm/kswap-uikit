@@ -2018,7 +2018,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TradeIcon: Icon$c,
     TwitterIcon: Icon$b,
     AuditIcon: Icon$a,
-    GooseIcon: Icon$9,
+    KswapIcon: Icon$9,
     LayerIcon: Icon$8,
     RoadmapIcon: Icon$7
 });
@@ -2048,7 +2048,7 @@ var Logo = function (_a) {
         React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$o, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$p, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Mango home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Mango home page" }, innerLogo))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Kswap home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Mango home page" }, innerLogo))));
 };
 var templateObject_1$c;
 
@@ -2113,19 +2113,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://info.mangofarm.finance",
+                href: "https://info.kswap.net",
             },
             {
                 label: "Tokens",
-                href: "https://info.mangofarm.finance/tokens",
+                href: "https://info.kswap.net/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://info.mangofarm.finance/pairs",
+                href: "https://info.kswap.net/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://info.mangofarm.finance/accounts",
+                href: "https://info.kswap.net/accounts",
             },
         ],
     },
@@ -2149,11 +2149,11 @@ var links = [
         items: [
             // {
             //   label: "Voting",
-            //   href: "https://voting.mangofarm.finance",
+            //   href: "https://voting.kswap.net",
             // },
             {
                 label: "Github",
-                href: "https://github.com/mangofinance/",
+                href: "https://github.com/okexfarm/kswap-farm/",
             },
         ],
     },
@@ -2165,18 +2165,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/mangofinance",
+                href: "https://t.me/kswap_net",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/mangofinance",
+                href: "https://t.me/kswap_info",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/mangofinancebsc",
+        href: "https://twitter.com/kswap_net",
     },
 ];
 var MENU_HEIGHT = 64;
