@@ -2048,7 +2048,7 @@ var Logo = function (_a) {
         React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$o, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$p, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Kswap home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Mango home page" }, innerLogo))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Kswap home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Kswap home page" }, innerLogo))));
 };
 var templateObject_1$c;
 
@@ -2301,9 +2301,9 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null,
-            mangoPriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
+            kswapPriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$E, { width: "24px", mr: "8px" }),
-                React.createElement(Text, { color: "textSubtle", bold: true }, "$" + mangoPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
+                React.createElement(Text, { color: "textSubtle", bold: true }, "$" + kswapPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
             React.createElement(Flex, null, socials.map(function (social, index) {
                 var Icon = Icons[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
@@ -2620,7 +2620,7 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5 || (templateObject_5 = 
 });
 var Menu = function (_a) {
     var _b;
-    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, mangoPriceUsd = _a.mangoPriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, kswapPriceUsd = _a.kswapPriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _c = useState(!isMobile), isPushed = _c[0], setIsPushed = _c[1];
@@ -2916,4 +2916,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark$6, butt
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light$6, button: light$5, colors: lightColors, card: light$4, toggle: light$2, nav: light$1, modal: light, radio: light$3 });
 
-export { Icon$13 as AddIcon, Alert, Icon$12 as ArrowBackIcon, Icon$11 as ArrowDownIcon, Icon$10 as ArrowDropDownIcon, Icon$$ as ArrowDropUpIcon, Icon$_ as ArrowForwardIcon, Icon$Z as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$Y as BinanceIcon, Icon$15 as BlockIcon, Breadcrumbs, Icon$X as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$V as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$W as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$17 as CheckmarkCircleIcon, Icon$U as CheckmarkIcon, Icon$T as ChevronDownIcon, Icon$S as ChevronLeftIcon, Icon$R as ChevronRightIcon, Icon$Q as ChevronUpIcon, Icon$P as CloseIcon, Icon$O as CogIcon, Icon$N as CommunityIcon, Icon$M as CopyIcon, CopyToClipboard, Dropdown, Icon$16 as ErrorIcon, Flex, Heading, Icon$L as HelpIcon, IconButton, Image, Icon$14 as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$K as ListViewIcon, Icon$J as LogoIcon, Icon$I as LogoRoundIcon, Icon$E as MangoRoundIcon, Icon$F as MangosIcon, Menu, Icon$H as MinusIcon, Modal, ModalProvider, Icon$G as OpenNewIcon, Icon$D as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$C as RemoveIcon, ResetCSS, Icon$w as SearchIcon, Skeleton, Spinner, Svg, Icon$v as SwapVertIcon, Icon$u as SyncAltIcon, Tag, Text, Icon$y as Ticket, Icon$x as TicketRound, ToastContainer, Toggle, Icon$B as VerifiedIcon, Icon$t as WarningIcon, Icon$z as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
+export { Icon$13 as AddIcon, Alert, Icon$12 as ArrowBackIcon, Icon$11 as ArrowDownIcon, Icon$10 as ArrowDropDownIcon, Icon$$ as ArrowDropUpIcon, Icon$_ as ArrowForwardIcon, Icon$Z as AutoRenewIcon, BackgroundImage, GridLayout$1 as BaseLayout, Icon$Y as BinanceIcon, Icon$15 as BlockIcon, Breadcrumbs, Icon$X as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$V as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$W as CardViewIcon, GridLayout as CardsLayout, Checkbox, Icon$17 as CheckmarkCircleIcon, Icon$U as CheckmarkIcon, Icon$T as ChevronDownIcon, Icon$S as ChevronLeftIcon, Icon$R as ChevronRightIcon, Icon$Q as ChevronUpIcon, Icon$P as CloseIcon, Icon$O as CogIcon, Icon$N as CommunityIcon, Icon$M as CopyIcon, CopyToClipboard, Dropdown, Icon$16 as ErrorIcon, Flex, Heading, Icon$L as HelpIcon, IconButton, Image, Icon$14 as InfoIcon, Input$1 as Input, Link, LinkExternal, Icon$K as ListViewIcon, Icon$J as LogoIcon, Icon$I as LogoRoundIcon, Icon$E as KswapRoundIcon, Icon$F as KswapsIcon, Menu, Icon$H as MinusIcon, Modal, ModalProvider, Icon$G as OpenNewIcon, Icon$D as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$C as RemoveIcon, ResetCSS, Icon$w as SearchIcon, Skeleton, Spinner, Svg, Icon$v as SwapVertIcon, Icon$u as SyncAltIcon, Tag, Text, Icon$y as Ticket, Icon$x as TicketRound, ToastContainer, Toggle, Icon$B as VerifiedIcon, Icon$t as WarningIcon, Icon$z as Won, variants as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
