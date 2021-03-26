@@ -1,2 +1,1 @@
 kswapui-sdk
-kswapui-sdk
