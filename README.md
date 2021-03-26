@@ -1,2 +1,2 @@
-# mangoui-sdk
-mangoui-sdk
+kswapui-sdk
+kswapui-sdk
