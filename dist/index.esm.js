@@ -2064,11 +2064,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.kswap.net",
+                href: "https://exchange.pancakeswap.finance/#/swap",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.kswap.net/#/pool",
+                href: "https://exchange.pancakeswap.finance/#/pool",
             },
         ],
     },
@@ -2113,19 +2113,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://info.kswap.net",
+                href: "https://pancakeswap.info/",
             },
             {
                 label: "Tokens",
-                href: "https://info.kswap.net/tokens",
+                href: "https://pancakeswap.info/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://info.kswap.net/pairs",
+                href: "https://pancakeswap.info/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://info.kswap.net/accounts",
+                href: "https://pancakeswap.info/accounts",
             },
         ],
     },
