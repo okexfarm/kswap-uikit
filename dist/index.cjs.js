@@ -2126,19 +2126,19 @@ var links = [
         items: [
             {
                 label: "Overview",
-                href: "https://info.kswap.net",
+                href: "https://pancakeswap.info/",
             },
             {
                 label: "Tokens",
-                href: "https://info.kswap.net/tokens",
+                href: "https://pancakeswap.info/tokens",
             },
             {
                 label: "Pairs",
-                href: "https://info.kswap.net/pairs",
+                href: "https://pancakeswap.info/pairs",
             },
             {
                 label: "Accounts",
-                href: "https://info.kswap.net/accounts",
+                href: "https://pancakeswap.info/accounts",
             },
         ],
     },
@@ -2166,7 +2166,7 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/okexfarm/kswap/",
+                href: "https://github.com/okexfarm/kswap-farm/",
             },
         ],
     },
