@@ -2077,11 +2077,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.kswap.net",
+                href: "https://exchange.pancakeswap.finance/#/swap",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.kswap.net/#/pool",
+                href: "https://exchange.pancakeswap.finance/#/pool",
             },
         ],
     },
