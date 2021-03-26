@@ -1,7 +1,7 @@
 {
   "name": "@kswap/uikit",
-  "version": "0.1.1",
-  "description": "Set of UI components for mango projects",
+  "version": "0.1.0",
+  "description": "Set of UI components for kswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
