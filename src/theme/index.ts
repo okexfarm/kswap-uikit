@@ -15,7 +15,7 @@ import {
   ZIndices,
 } from "./types";
 
-export interface MangoTheme {
+export interface KswapTheme {
   siteWidth: number;
   isDark: boolean;
   alert: AlertTheme;
