@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.mangofarm.finance",
+        href: "https://exchange.kswap.net",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.mangofarm.finance/#/pool",
+        href: "https://exchange.kswap.net/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://info.mangofarm.finance",
+        href: "https://info.kswap.net",
       },
       {
         label: "Tokens",
-        href: "https://info.mangofarm.finance/tokens",
+        href: "https://info.kswap.net/tokens",
       },
       {
         label: "Pairs",
-        href: "https://info.mangofarm.finance/pairs",
+        href: "https://info.kswap.net/pairs",
       },
       {
         label: "Accounts",
-        href: "https://info.mangofarm.finance/accounts",
+        href: "https://info.kswap.net/accounts",
       },
     ],
   },
@@ -95,11 +95,11 @@ export const links = [
     items: [
       // {
       //   label: "Voting",
-      //   href: "https://voting.mangofarm.finance",
+      //   href: "https://voting.kswap.net",
       // },
       {
         label: "Github",
-        href: "https://github.com/mangofinance/",
+        href: "https://github.com/okexfarm/kswap-farm",
       },
     ],
   },
@@ -112,18 +112,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/mangofinance",
+        href: "https://t.me/kswap_net",
       },
       {
         label: "Announcements",
-        href: "https://t.me/mangofinance",
+        href: "https://t.me/kswap_info",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/mangofinancebsc",
+    href: "https://twitter.com/kswap_net",
   },
 ];
 
