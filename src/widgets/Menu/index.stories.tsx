@@ -24,7 +24,7 @@ export const Connected: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
+        account="0x0fc64a803745275971fE40028196E9DDd684945B"
         login={noop}
         logout={noop}
         isDark={false}
@@ -32,7 +32,7 @@ export const Connected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        mangoPriceUsd={0.23158668932877668}
+        kswapPriceUsd={0.23158668932877668}
         links={links}
         profile={null}
       >
@@ -105,7 +105,7 @@ export const WithNoProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
+        account="0x0fc64a803745275971fE40028196E9DDd684945B"
         login={noop}
         logout={noop}
         isDark={false}
@@ -113,7 +113,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        mangoPriceUsd={0.23158668932877668}
+        kswapPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -153,7 +153,7 @@ export const WithProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0x3d29cdb00cb183a0aeceea4fb73f55e1450af3d4"
+        account="0x0fc64a803745275971fE40028196E9DDd684945B"
         login={noop}
         logout={noop}
         isDark={false}
@@ -161,12 +161,12 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        mangoPriceUsd={0.23158668932877668}
+        kswapPriceUsd={0.23158668932877668}
         links={links}
         profile={{
-          username: "mangoswap",
+          username: "kswap",
           image:
-            "https://mangofarm.finance/images/nfts/blueberries-preview.png",
+            "https://bsc.kswap.net/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}
